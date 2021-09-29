@@ -1,0 +1,76 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(35, 50, 182, 0.911);
+    margin-left: 400px;
+    margin-right: 220px;
+    margin-top: 110px;
+}
+
+.display
+{
+    background-color: rgb(255, 253, 253);
+    padding: 15px;
+    width: 256px;
+    text-align: right;
+    font-size: 20px;
+}
+
+button
+{
+    padding: 10px;
+    width: 68px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgba(202, 39, 39, 0.849);
+    font-size: 20px;
+}
+
+button:hover
+{
+    cursor:pointer;
+    background-color: silver;
+}
+
+button:focus
+{
+    outline: none;
+}
+
+button:active
+{
+    background-color: silver;
+}
+
+.noVisible
+{
+    display: none;
+}
+
+#Historial
+{
+    width: 263px;
+    height: 367px;
+    overflow-y: scroll;
+    font-size: 1.1em;
+    background: white;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin: -368px;
+    margin-left: 291px
+
+    
+}
+
+#Historial::-webkit-scrollbar
+{
+    width: 0;
+}
+
+#Historial h3
+{
+    padding: 10px 0px;
+    font-size: 1.2em;
+}

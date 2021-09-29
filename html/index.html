@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="main">
+                <div class="display">
+                    <p id="output">0</p>
+
+                </div>
+                <div class="FR">
+                    <button id="R1-1" style="width: 213px;" onclick="clearOutput()">C</button>
+                    <button id="R1-2" onclick="fordisplay('/')">/</button>
+                </div>
+                <div class="SR">
+                    <button id="R2-1" onclick="fordisplay('7')">7</button>
+                    <button id="R2-2" onclick="fordisplay('8')">8</button>
+                    <button id="R2-3" onclick="fordisplay('9')">9</button>
+                    <button id="R2-4" onclick="fordisplay('*')">*</button>
+                </div>
+                <div class="TR">
+                    <button id="R3-1" onclick="fordisplay('4')">4</button>
+                    <button id="R3-2" onclick="fordisplay('5')">5</button>
+                    <button id="R3-3" onclick="fordisplay('6')">6</button>
+                    <button id="R3-4" onclick="fordisplay('-')">-</button>
+                </div>
+                    <div class="FR">
+                    <button id="R4-1" onclick="fordisplay('1')">1</button>
+                    <button id="R4-2" onclick="fordisplay('2')">2</button>
+                    <button id="R4-3" onclick="fordisplay('3')">3</button>
+                    <button id="R4-4" onclick="fordisplay('+')">+</button>
+                </div>
+                <div class="FVR">
+                    <button id="R5-1" onclick="fordisplay('0')">0</button>
+                    <button id="R5-2" onclick="fordisplay('.')">.</button>
+                    <button id="R5-3" style="width: 140px;" onclick="solve()">=</button>
+                </div>
+            </div>
+        </div>
+        <form action="" class="Calculadora" name="calc">
+        <div id="Historial">
+            <h3>Historial</h3>
+            <div id="Resultado"></div>
+        </div>
+        </form>
+
+        <script src="index.js">
+           
+        </script>
+    </body>
+</html>
